@@ -1,31 +1,29 @@
-# Tailwind CSS Project - Arabic Page
+# FinalProject
 
-This is a simple project that uses the **Tailwind CSS CLI** to build a responsive Arabic interface.
+This template should help get you started developing with Vue 3 in Vite.
 
-# 📁 Project Structure
+## Recommended IDE Setup
 
-project-root/
-├── images/
-│   └── c++.jpg
-├── node_modules/
-├── src/
-│   ├── index.html
-│   ├── input.css
-│   ├── output.css
-│   └── style.css
-├── .gitignore
-├── package.json
-└── package-lock.json
-|___README.md
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-# 🛠️ How to Run
-### 1. Install dependencies
-```bash
+## Customize configuration
+
+See [Vite Configuration Reference](https://vite.dev/config/).
+
+## Project Setup
+
+```sh
 npm install
+```
 
-###2. Build Tailwind CSS
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+### Compile and Hot-Reload for Development
 
-done by [Erfan Almrwani]
+```sh
+npm run dev
+```
 
+### Compile and Minify for Production
 
+```sh
+npm run build
+```
